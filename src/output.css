@@ -2055,16 +2055,39 @@ svg.suggestion-icon {
 
 /* Quick links container */
 .quick-links-container {
-  display: flex;
+  /* display: flex;
   gap: 2px;
   justify-content: center;
-  /* 改为居中对齐 */
   min-height: 80px;
   overflow-x: hidden;
   padding: 10px 0;
+  
+  width: 1200px; */
+  /* display: grid; */
+  /* gap: 2px; */
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  grid-auto-flow: column;
+  /* justify-content: center; */
+  display: flex;
+  /* padding: 1rem 2rem 2rem 2rem; */
+  row-gap: 10px;
+  flex-wrap: wrap;
+  /* allow multiple rows */
+  justify-content: space-around;
+  /* like MainAxisAlignment.spaceAround */
+  align-content: space-around;
+  min-height: 100px;
+  /* overflow-x: hidden; */
+  overflow: hidden;
+  overflow-x: auto;
+  /* allow horizontal scroll instead */
+  overflow-y: hidden;
+  /* padding: 10px 0; */
   width: 1200px;
 
 }
+
 
 .quick-link-item-container,
 .quick-link-placeholder {

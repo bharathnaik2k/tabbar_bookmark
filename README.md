@@ -2,6 +2,8 @@
 
 <!-- ## Project Website: www.ainewtab.app -->
 
+# TabMark - Cloned Repo
+
 TabMark transforms your bookmarks into a new tab page, making your saved bookmarks clear, organized, and efficient, allowing quick access to the websites and resources you need most. Combined with intelligent AI search, it helps you find answers faster. Supports Chrome and Edge.
 
 ![MacBook Air 13_ - 5@1x](https://github.com/user-attachments/assets/bb4f9996-902c-4b69-8a7f-4c2b2e219ffc)
