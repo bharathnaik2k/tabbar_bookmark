@@ -6,7 +6,7 @@
 
 TabMark transforms your bookmarks into a new tab page, making your saved bookmarks clear, organized, and efficient, allowing quick access to the websites and resources you need most. Combined with intelligent AI search, it helps you find answers faster. Supports Chrome and Edge.
 
-![MacBook Air 13_ - 5@1x](https://github.com/user-attachments/assets/bb4f9996-902c-4b69-8a7f-4c2b2e219ffc)
+![MacBook Air 13_ - 5@1x](https://github.com/bharathnaik2k/tabbar_bookmark/blob/master/preview.png)
 
 ## Please note: Due to new Chrome Web Store policy requirements, extensions are no longer allowed to modify both the new tab page and search functionality simultaneously. Therefore, the Chrome Web Store version cannot be updated for the time being.
 
