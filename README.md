@@ -8,6 +8,16 @@ TabMark transforms your bookmarks into a new tab page, making your saved bookmar
 
 ![MacBook Air 13_ - 5@1x](https://github.com/bharathnaik2k/tabbar_bookmark/blob/master/preview.png)
 
+
+# ⬇️⬇️ How To Use this extension
+
+- first clone this project on your local device (choose any place you want to save, example: Desktop). ⚠️ don’t move this project after adding it in browser, if you move it, extension will not work.
+- open browser (chrome or brave) → go to extensions (top right corner) → turn on developer mode
+- once developer mode is on, top left you will see 3 options → load unpacked, pack extension, update
+- click load unpacked → select the cloned project folder → save → then click update
+- booom! 🎉 your new home screen is ready
+
+
 ## Please note: Due to new Chrome Web Store policy requirements, extensions are no longer allowed to modify both the new tab page and search functionality simultaneously. Therefore, the Chrome Web Store version cannot be updated for the time being.
 
 - Chrome Web Store version: 1.243 (Actually version 1.241, rolled back from version 1.242)
