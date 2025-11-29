@@ -23,40 +23,42 @@
     "http://*/*"
   ],
   "action": {
-    "default_icon": {
-      "16": "images/icon-16.png",
-      "48": "images/icon-48.png",
-      "128": "images/icon-128.png"
-    }
+    "default_icon": {}
   },
-  "icons": {
-    "16": "images/icon-16.png",
-    "48": "images/icon-48.png",
-    "128": "images/icon-128.png"
-  },
+  "icons": {},
   "background": {
     "service_worker": "src/background.js"
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["src/content.js"]
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "src/content.js"
+      ]
     },
     {
-      "matches": ["<all_urls>"],
-      "js": ["src/sidepanel-navigation.js"],
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "src/sidepanel-navigation.js"
+      ],
       "run_at": "document_end"
     }
   ],
   "web_accessible_resources": [
     {
       "resources": [
-        "_favicon/*", 
+        "_favicon/*",
         "src/fonts/*",
         "images/sider-icon/*",
         "images/*"
       ],
-      "matches": ["<all_urls>"]
+      "matches": [
+        "<all_urls>"
+      ]
     }
   ],
   "side_panel": {

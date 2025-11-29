@@ -2,7 +2,7 @@ import { ICONS } from './icons.js';
 
 document.addEventListener('DOMContentLoaded', function () {
   const quickLinksContainer = document.getElementById('quick-links');
-  const MAX_DISPLAY = 30;
+  const MAX_DISPLAY = 45;
 
 
   let quickLinkToDelete = null;
